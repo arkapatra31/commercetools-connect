@@ -9,8 +9,7 @@ export async function filterOrdersByCustomField(searchTerm: string): Promise<Ord
                     "fullText": {
                         "field": "custom.Product_Definition",
                         "value": searchTerm,
-                        "language": "en-US",
-                        "customType": "LocalizedStringType",
+                        "customType": "StringType",
                         "mustMatch": "any"
                     }
                 }
