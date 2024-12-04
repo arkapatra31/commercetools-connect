@@ -6,3 +6,4 @@ This repository implements a Commercetools Connect Application for generating or
 Firstly execute the following sets of commands :- <br>
 1. npm install --global @commercetools-connect/create-connect-app <br>
 2. create-connect-app first-connect-application --template typescript <br>
+3. 3. Service based app
