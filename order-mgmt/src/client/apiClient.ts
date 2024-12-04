@@ -30,4 +30,5 @@ const client: Client = new ClientBuilder()
     .withUserAgentMiddleware()
     .build();
 
+// Export the API root    
 export const apiRoot: ApiRoot = createApiBuilderFromCtpClient(client);
